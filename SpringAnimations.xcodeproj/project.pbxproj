@@ -16,6 +16,7 @@
 		232E9427274D8971006583E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232E9425274D8971006583E9 /* LaunchScreen.storyboard */; };
 		23C5FFCE274E1E8300E36CDA /* SpringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5FFCD274E1E8300E36CDA /* SpringModel.swift */; };
 		23C5FFD1274E1EE100E36CDA /* SpringServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5FFD0274E1EE100E36CDA /* SpringServices.swift */; };
+		23C5FFD6274E622E00E36CDA /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5FFD5274E622E00E36CDA /* OptionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		232E9428274D8971006583E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C5FFCD274E1E8300E36CDA /* SpringModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringModel.swift; sourceTree = "<group>"; };
 		23C5FFD0274E1EE100E36CDA /* SpringServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringServices.swift; sourceTree = "<group>"; };
+		23C5FFD5274E622E00E36CDA /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		C474B809EBAA8EC7412D7256 /* Pods_SpringAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDDD311EAE287A421752790 /* Pods-SpringAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimations.release.xcconfig"; path = "Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				232E941E274D896A006583E9 /* ViewController.swift */,
+				23C5FFD5274E622E00E36CDA /* OptionsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			files = (
 				23C5FFCE274E1E8300E36CDA /* SpringModel.swift in Sources */,
 				232E941F274D896A006583E9 /* ViewController.swift in Sources */,
+				23C5FFD6274E622E00E36CDA /* OptionsViewController.swift in Sources */,
 				232E941B274D896A006583E9 /* AppDelegate.swift in Sources */,
 				232E941D274D896A006583E9 /* SceneDelegate.swift in Sources */,
 				23C5FFD1274E1EE100E36CDA /* SpringServices.swift in Sources */,

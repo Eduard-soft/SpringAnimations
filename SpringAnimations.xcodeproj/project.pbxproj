@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057CFFF68F55022E4CF602B7 /* Pods_SpringAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474B809EBAA8EC7412D7256 /* Pods_SpringAnimations.framework */; };
 		232E941B274D896A006583E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232E941A274D896A006583E9 /* AppDelegate.swift */; };
 		232E941D274D896A006583E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232E941C274D896A006583E9 /* SceneDelegate.swift */; };
 		232E941F274D896A006583E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232E941E274D896A006583E9 /* ViewController.swift */; };
 		232E9422274D896A006583E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232E9420274D896A006583E9 /* Main.storyboard */; };
 		232E9424274D8971006583E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 232E9423274D8971006583E9 /* Assets.xcassets */; };
 		232E9427274D8971006583E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 232E9425274D8971006583E9 /* LaunchScreen.storyboard */; };
+		23C5FFCE274E1E8300E36CDA /* SpringModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5FFCD274E1E8300E36CDA /* SpringModel.swift */; };
+		23C5FFD1274E1EE100E36CDA /* SpringServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C5FFD0274E1EE100E36CDA /* SpringServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01210875CE2DB8C25D005096 /* Pods-SpringAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimations.debug.xcconfig"; path = "Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations.debug.xcconfig"; sourceTree = "<group>"; };
 		232E9417274D896A006583E9 /* SpringAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		232E941A274D896A006583E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		232E941C274D896A006583E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		232E9423274D8971006583E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		232E9426274D8971006583E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		232E9428274D8971006583E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C5FFCD274E1E8300E36CDA /* SpringModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringModel.swift; sourceTree = "<group>"; };
+		23C5FFD0274E1EE100E36CDA /* SpringServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringServices.swift; sourceTree = "<group>"; };
+		C474B809EBAA8EC7412D7256 /* Pods_SpringAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDDD311EAE287A421752790 /* Pods-SpringAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimations.release.xcconfig"; path = "Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057CFFF68F55022E4CF602B7 /* Pods_SpringAnimations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				232E9419274D896A006583E9 /* SpringAnimations */,
 				232E9418274D896A006583E9 /* Products */,
+				DD0DDC612246EDA6C2B58403 /* Pods */,
+				9CDC04F0498D9ACC49F16CCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,82 @@
 		232E9419274D896A006583E9 /* SpringAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				232E941A274D896A006583E9 /* AppDelegate.swift */,
-				232E941C274D896A006583E9 /* SceneDelegate.swift */,
-				232E941E274D896A006583E9 /* ViewController.swift */,
-				232E9420274D896A006583E9 /* Main.storyboard */,
-				232E9423274D8971006583E9 /* Assets.xcassets */,
-				232E9425274D8971006583E9 /* LaunchScreen.storyboard */,
+				23C5FFCB274E1E0100E36CDA /* Storyboards */,
+				23C5FFCC274E1E2D00E36CDA /* ViewControllers */,
+				23C5FFD3274E1F0D00E36CDA /* Resources */,
+				23C5FFD2274E1EE700E36CDA /* Services */,
+				23C5FFCF274E1E8A00E36CDA /* Models */,
+				23C5FFD4274E1F2F00E36CDA /* Configs */,
 				232E9428274D8971006583E9 /* Info.plist */,
 			);
 			path = SpringAnimations;
+			sourceTree = "<group>";
+		};
+		23C5FFCB274E1E0100E36CDA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				232E9420274D896A006583E9 /* Main.storyboard */,
+				232E9425274D8971006583E9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		23C5FFCC274E1E2D00E36CDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				232E941E274D896A006583E9 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23C5FFCF274E1E8A00E36CDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23C5FFCD274E1E8300E36CDA /* SpringModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23C5FFD2274E1EE700E36CDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				23C5FFD0274E1EE100E36CDA /* SpringServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		23C5FFD3274E1F0D00E36CDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				232E9423274D8971006583E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23C5FFD4274E1F2F00E36CDA /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				232E941A274D896A006583E9 /* AppDelegate.swift */,
+				232E941C274D896A006583E9 /* SceneDelegate.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		9CDC04F0498D9ACC49F16CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C474B809EBAA8EC7412D7256 /* Pods_SpringAnimations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0DDC612246EDA6C2B58403 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01210875CE2DB8C25D005096 /* Pods-SpringAnimations.debug.xcconfig */,
+				DDDDD311EAE287A421752790 /* Pods-SpringAnimations.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 232E942B274D8971006583E9 /* Build configuration list for PBXNativeTarget "SpringAnimations" */;
 			buildPhases = (
+				073F2F0FCB10D0DDABDC6E20 /* [CP] Check Pods Manifest.lock */,
 				232E9413274D896A006583E9 /* Sources */,
 				232E9414274D896A006583E9 /* Frameworks */,
 				232E9415274D896A006583E9 /* Resources */,
+				8DE97D9C62EBD39987D51C95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +213,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		073F2F0FCB10D0DDABDC6E20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE97D9C62EBD39987D51C95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpringAnimations/Pods-SpringAnimations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		232E9413274D896A006583E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C5FFCE274E1E8300E36CDA /* SpringModel.swift in Sources */,
 				232E941F274D896A006583E9 /* ViewController.swift in Sources */,
 				232E941B274D896A006583E9 /* AppDelegate.swift in Sources */,
 				232E941D274D896A006583E9 /* SceneDelegate.swift in Sources */,
+				23C5FFD1274E1EE100E36CDA /* SpringServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +408,7 @@
 		};
 		232E942C274D8971006583E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01210875CE2DB8C25D005096 /* Pods-SpringAnimations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +420,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +432,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		232E942D274D8971006583E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDDD311EAE287A421752790 /* Pods-SpringAnimations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +450,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
